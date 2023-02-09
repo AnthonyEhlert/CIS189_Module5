@@ -4,7 +4,7 @@ Author: Tony Ehlert
 Last date modified: 2/8/2023
 
 The purpose of this program is to use a for loop to first print a list of floating point numbers,
-then print a list of of odd number from 99-33 inclusive
+then print a list of odd numbers from 99-33 inclusive
 The input is a list of floating point numbers
 The output is a print out of the floating point numbers list and a print out the odd numbers between 99-33 inclusive
 """
