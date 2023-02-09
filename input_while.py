@@ -24,9 +24,12 @@ user_input_as_float = 0.0
 
 # while loop and try/except block used to check for valid number entry
 while (user_input != SENTINEL_VALUE):
+
     # prompt the user for input (indicating the sentinel value to stop)
     user_input = input(f"Please enter a number between 1 and 100. Enter \"{SENTINEL_VALUE}\" to stop.").lower()
+
     try:
+        # convert user input to float data type
         user_input_as_float = float(user_input)
 
         # while loop checks for valid range
